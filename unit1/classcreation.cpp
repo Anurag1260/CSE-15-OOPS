@@ -9,7 +9,8 @@ private:
    public:
    Point(): x{0},y{0},{}
    Point(int p,int q):x{p},y{q}{
-    cout<<"Parametrized Constructor"<<endl;
+    cout<<"Parametrized Constructor"<<end
+    ;
    }
    void show(){
     cout<<x<<","<<y<<endl;
